@@ -1,0 +1,3 @@
+{:duct.compiler/postcss [:duct/compiler]
+ :duct.module/postcss [:duct/module]
+ :duct.server/postcss [:duct/server]}
