@@ -13,8 +13,8 @@
 `config.edn`
 
 ```clojure
-:duct.module/postcss {:input "myapp/public/css/tailwind.css"
-                      :output "myapp/public/style.css"
+:duct.module/postcss {:input "resources/myapp/public/css/tailwind.css"
+                      :output "resources/myapp/public/style.css"
                       ;; Optional, change the postcss command
                       :postcss ["npx" "postcss"]}
 ```
