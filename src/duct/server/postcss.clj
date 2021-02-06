@@ -35,8 +35,6 @@
 (defmethod ig/halt-key! :duct.server/postcss [_ opts]
   (hawk/stop! opts))
 
-(defmethod ig/resume-key :duct.server/postcss [_key opts _old-opts _old-impl]
-  (start-watcher! opts))
+(defmethod ig/resume-key :duct.server/postcss [_key opts _old-opts _old-impl])
 
-(defmethod ig/suspend-key! :duct.server/postcss [_ opts]
-  (hawk/stop! opts))
+(defmethod ig/suspend-key! :duct.server/postcss [_ opts])
