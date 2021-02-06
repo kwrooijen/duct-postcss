@@ -7,7 +7,7 @@
 `project.clj`
 
 ```clojure
-:dependencies [[kwrooijen/duct-postcss "0.1.0"]]
+:dependencies [[kwrooijen/duct-postcss "0.1.1"]]
 ```
 
 `config.edn`

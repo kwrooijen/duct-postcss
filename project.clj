@@ -1,4 +1,4 @@
-(defproject kwrooijen/duct-postcss "0.1.0"
+(defproject kwrooijen/duct-postcss "0.1.1"
   :description "Duct library for Postcss"
   :url "https://github.com/kwrooijen/duct-postcss"
   :license {:name "MIT"}
